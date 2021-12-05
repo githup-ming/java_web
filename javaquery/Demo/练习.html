@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head><!-- 表示头部信息，  -->
+    <meta charset="UTF-8">
+    <title>这个是一个网页</title>
+    <script type="text/javascript" src="script/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            // $("div").html("<h1>我是div中的h2标题</h1>");
+            // alert($("div").html());
+            // alert($("div").text("<h1>我是div中的h1标签</h1>"));
+            // alert($("div").text());练习.html
+            // alert($("button").click(function () {
+            //     // alert($("input").val());
+            //     $("#username").val("超级程序员")
+            // }));
+            // $("div").append("<span>我是新加入的span标签</span>");
+            $("<div>我是新的div标签</div>").appendTo("div");
+            $("<div>我是新的div标签</div>").prependTo("div");
+        });
+    </script>
+</head>
+<body >
+    <div>我是div标签 <span>我是div中的sapn标签</span></div>
+    <input type="text" name="username" id="username">
+    <button>操作输入框</button>
+</body>
+
+</html>

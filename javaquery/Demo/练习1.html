@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head><!-- 表示头部信息，  -->
+    <meta charset="UTF-8">
+    <title>这个是一个网页</title>
+    <script type="text/javascript" src="script/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#btn1").click(function () {
+                var val = $(":radio:checked").val();
+                if(val == "radio1"){
+                    $(":radio").val(["radio2"])
+                }else{
+                    $(":radio").val(["radio1"])
+
+                }
+                 alert($(":radio:checked").val());
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="btn1">按钮1</button>
+    单选：
+    <input name="radio" type="radio" value="radio1"/>radio1
+    <input name="radio" type="radio" value="radio2"/>radio2
+    <br/>
+    多选：
+    <input name="checkbox" type="checkbox" value="checkbox1"/>checkbox1
+    <input name="checkbox" type="checkbox" value="checkbox2"/>checkbox2
+    <input name="checkbox" type="checkbox" value="checkbox3"/>checkbox3 multiple="multiple" size="4">
+
+    <option value="mul1">mul1</option>
+    <option value="mul2">mul2</option>
+    <option value="mul3">mul3</option>
+    <option value="mul4">mul4</option>
+    </select> <br/> 下拉单选 ： <select id="single">
+        <option value="sin1">sin1</option>
+        <option value="sin2">sin2</option>
+        <option value="sin3">sin3</option>
+    </select>
+</body>
+
+</html>

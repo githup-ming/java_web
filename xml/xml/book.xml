@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<books>
+    <book id = "sn13412412">
+        <name>java编程思想</name>
+        <author>张三</author>
+        <price>33</price>
+    </book>
+    <book id = "sna3412412">
+        <name>java入门到放弃</name>
+        <author>李四</author>
+        <price>9.9</price>
+    </book>
+    <book id = "sna1212412">
+        <name><![CDATA[<<<<<<<<java经典>>>>>>>>]]></name>
+        <author>李四</author>
+        <price>9.9</price>
+    </book>
+</books>
+
+
+
+
+
+

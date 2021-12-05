@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java_javascript/Java_javascript.iml" filepath="$PROJECT_DIR$/Java_javascript/Java_javascript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book/book.iml" filepath="$PROJECT_DIR$/book/book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book_static/book_static.iml" filepath="$PROJECT_DIR$/book_static/book_static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_web.iml" filepath="$PROJECT_DIR$/java_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaquery/javaquery.iml" filepath="$PROJECT_DIR$/javaquery/javaquery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet/servlet.iml" filepath="$PROJECT_DIR$/servlet/servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml/xml.iml" filepath="$PROJECT_DIR$/xml/xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/快捷键/快捷键.iml" filepath="$PROJECT_DIR$/快捷键/快捷键.iml" />
+      <module fileurl="file://$PROJECT_DIR$/请求转发/请求转发.iml" filepath="$PROJECT_DIR$/请求转发/请求转发.iml" />
+    </modules>
+  </component>
+</project>
