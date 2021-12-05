@@ -7,5 +7,7 @@ package com.xiaoming.test;
 public class Persion {
     public void eat(){
         System.out.println("吃饭");
+
+        //验证git
     }
 }
